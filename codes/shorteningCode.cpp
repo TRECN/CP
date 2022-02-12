@@ -1,5 +1,5 @@
 #include<bits/stdc++.h>
-
+//using typedef
 typedef long long ll;
 
 using namespace std;
