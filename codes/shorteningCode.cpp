@@ -12,6 +12,8 @@ typedef pair<int,int> pi;
 #define S second
 #define PB push_back
 #define MP make_pair
+//define can also be used to shortening loops
+#define REP(i,a,b) for (int i = a; i <= b; i++)
 using namespace std;
 int main(){
     ios::sync_with_stdio(0);
