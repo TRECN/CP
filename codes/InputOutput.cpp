@@ -12,4 +12,9 @@ int main(){
     int d, e;
     scanf("%d %d", &d, &e);
     printf("%d%d\n",d,e);
+
+    //for string
+    string s;
+    getline(cin,s);
+    cout<<s;
 }
