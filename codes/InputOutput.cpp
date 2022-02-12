@@ -5,6 +5,8 @@ int main(){
     cin.tie(0);
     //\n is faster than endl
     int a, b;
-string x;
-cin >> a >> b >> x;
+    string x;
+    cin >> a >> b >> x;
+
+    
 }
