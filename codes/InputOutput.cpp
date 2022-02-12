@@ -8,6 +8,6 @@ int main(){
     string x;
     cin >> a >> b >> x;
 
-    int a, b;
-    scanf("%d %d", &a, &b);
+    int d, e;
+    scanf("%d %d", &d, &e);
 }
