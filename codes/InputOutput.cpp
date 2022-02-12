@@ -7,7 +7,9 @@ int main(){
     int a, b;
     string x;
     cin >> a >> b >> x;
-
+    cout<<a<<b<<x;
+    //faster
     int d, e;
     scanf("%d %d", &d, &e);
+    printf("%d%d\n",d,e);
 }
