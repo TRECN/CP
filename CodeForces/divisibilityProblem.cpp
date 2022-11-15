@@ -8,15 +8,13 @@ int main()
     while(t--){
         int a,b;
         cin>>a>>b;
+        int ans;
         if(a%b==0){
-            cout<<0<<endl;
+            ans=0;
         }
-        else{
-            int i=a/b;
-            int k=b*(i+1);
-            int ans=k-a;
-            cout<<ans<<endl;
-        }
+        else
+            ans=(b*((a/b)+1))-a;
+        cout<<ans<<endl;
     }
     return 0;
 }
